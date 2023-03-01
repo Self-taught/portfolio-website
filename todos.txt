@@ -1,0 +1,8 @@
+editing a current todo list
+write python and learn
+Complete this lesson of python
+edit the task
+a new todo in the file
+functions learned
+Turn off the lights
+a new function and see if it is working?
