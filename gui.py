@@ -9,15 +9,15 @@ complete_button = sg.Button("Complete")
 clear_button = sg.Button("Clear")
 layout = [[clock],
           [sg.Text("Enter a To-Do")],
-          [sg.InputText(key="todo")],
-          [sg.Button('Add'), clear_button],
+          [sg.InputText(key="todo"),
+           sg.Button(size=1, image_source="add.png", mouseover_colors="LightBlue", tooltip="Add todo", key="Add"), clear_button],
           [list_box, edit_button, complete_button]]
 
 window = sg.Window("A TO-DO App", layout, font=("Helvetica", 20))
 
 while True:
-    event, values = window.read(timeout=1000)
-    window["clock"].update(value=time.strftime("%b %d %Y %M %H %M %S"))
+    event, values = window.read(timeout=10000)
+    window["clock"].update(value=time.strftime("%b %d %Y %M %H %M"))
     print(event)
     print(values)
 
