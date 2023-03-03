@@ -1,9 +1,7 @@
 Edit a current todo list
 write python and learn
 Complete a lesson of python
-edit the task
 Create a new todo in this file
-learn functionsTurn off the lights
-New Function working?
+learn functionsNew Function working?
 make a gui for todo app
-Make a new todo
+Add buttons to the GUI
