@@ -1,8 +1,8 @@
-Edit a current todo list
+Edit a current todo
 write python and learn
 Complete a lesson of python
-Create a new todo in this file
-learn functionsNew Function working?
 make a gui for todo app
 Add buttons to the GUI
 Improve the app
+Try the GUI app
+streamlit web app

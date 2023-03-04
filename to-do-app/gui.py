@@ -3,7 +3,7 @@ import functions
 import time
 
 clock = sg.Text("", key="clock")
-list_box = sg.Listbox(values=functions.get_todos(), key="todos", enable_events=True, size=[45,10])
+list_box = sg.Listbox(values=functions.get_todos(), key="todos", enable_events=True, size=[45, 10])
 edit_button = sg.Button("Edit")
 complete_button = sg.Button("Complete")
 clear_button = sg.Button("Clear")
